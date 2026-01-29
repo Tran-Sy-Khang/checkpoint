@@ -1,0 +1,24 @@
+.Container {
+  width: 1140px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.body {
+  position: relative;
+  top: 100px;
+}
+
+#Cac_san_pham {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}

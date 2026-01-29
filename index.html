@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style_Trang_chu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Đoạn header -->
+    <div class="header">
+      <!-- Head1 -->
+      <div class="heading1">
+        <div class="containers">
+          <!-- Email -->
+          <div>
+            <a href="mailto:admin@eco3d.vn" class="mail-a">
+              <i class="fa-solid fa-envelope"></i> <span>admin@eco3d.vn</span>
+            </a>
+          </div>
+
+          <!-- chi nhánh -->
+          <div>
+            <a href="" class="locate-a">
+              <i class="fa-solid fa-location-pin"></i>
+              <span>Hệ thống 7 chi nhánh </span>
+            </a>
+          </div>
+
+          <div class="install">
+            <!-- Googleplay -->
+            <div>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.eco3d.eco3dcollab"
+                class="googleplay-a"
+                ><img src="./google-play.png" alt="" class="googleplay"
+              /></a>
+            </div>
+
+            <!-- Appstore -->
+            <div>
+              <a
+                href="https://apps.apple.com/vn/app/e-safety/id1539317526?l=vi"
+              >
+                <img src="./apple.png" alt="" class="appstore" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Head2 -->
+      <div class="head2">
+        <div class="containers">
+          <!-- Logo -->
+          <a href="./index.html"><img src="./logo.png" alt="" /></a>
+
+          <div class="mid-header">
+            <div class="Search">
+              <!-- Search -->
+              <input
+                id="Search"
+                type="text"
+                placeholder="Từ khóa tìm kiếm"
+                class="search"
+              />
+              <button type="submit" class="button" id="btn">
+                <i class="fa-solid fa-magnifying-glass" style="color: #fff"></i>
+              </button>
+            </div>
+            <div class="hotline">
+              <!-- Hotline -->
+              <label
+                style="
+                  font-size: 16px;
+                  color: #666;
+                  font-weight: bold;
+                  clear: both;
+                  display: block;
+                "
+              >
+                Hotline 24/7
+              </label>
+              <span
+                b-14716oc69z=""
+                style="font-size: 21px; color: #da251e; font-weight: bold"
+                >0372.064.090</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navi">
+        <div class="containers nav-bar">
+          <div class="SanPham">
+            <h3 style="color: #fff">Danh mục sản phẩm</h3>
+          </div>
+
+          <div class="rows">
+            <a href="./index.html">Trang chủ</a>
+            <a href="">Giới thiệu</a>
+            <a href="">Dịch vụ</a>
+            <a href="">Tin tức</a>
+            <a href="">Liên hệ</a>
+            <a href="">Liên hệ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Đoạn body -->
+    <div class="body">
+      <!-- Carousel -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./2503121531-c769720c-21df-482e-8430-76786bdb64de.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./2108140810-banner-eco3d-npp.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./2112300221-eco3d-thiet-bi-tro-tho-scba-20122021.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Content1 -->
+      <div
+        class="ct1"
+        style="
+          top: 100px;
+          position: relative;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <div class="containers">
+          <div class="container">
+            <div class="DichVu">
+              <div class="inners">
+                <i
+                  class="fa-solid fa-truck"
+                  style="font-size: 68px; display: block"
+                ></i>
+                <span style="display: block">MIỄN PHÍ VẬN CHUYỂN</span>
+                <br /><i>Áp dụng cho tất cả đơn hàng</i>
+              </div>
+
+              <div class="inners">
+                <i
+                  class="fa-solid fa-dollar-sign"
+                  style="font-size: 68px; display: block"
+                ></i>
+                <span style="display: block">NHẬP KHẨU CHÍNH HÃNG</span>
+                <br /><i>Chuyên cung cấp các hàng chính hãng</i>
+              </div>
+
+              <div class="inners">
+                <i
+                  class="fa-solid fa-boxes-stacked"
+                  style="font-size: 68px; display: block"
+                ></i>
+                <span style="display: block">HỖ TRỢ 24/7</span>
+                <br /><i>Đội ngũ nhân viên hỗ trợ 24/7</i>
+              </div>
+
+              <div class="inners">
+                <i
+                  class="fa-solid fa-arrow-rotate-right"
+                  style="font-size: 68px; display: block"
+                ></i>
+                <span style="display: block">HỖ TRỢ 24/7</span>
+                <br /><i>Đội ngũ nhân viên hỗ trợ 24/7</i>
+              </div>
+            </div>
+
+            <div class="sections">
+              <div>
+                <h4 style="text-align: start">Danh mục</h4>
+              </div>
+
+              <div class="contents">
+                <div class="bg">
+                  <img
+                    src="./danhmucSP_bg.png"
+                    alt=""
+                    style="height: 508.4px; border-radius: 10px"
+                  />
+                </div>
+
+                <div class="content-big">
+                  <div class="content1">
+                    <img
+                      src="./2111100818-eco3d-mu-bao-ho-10112021-1.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Bảo vệ đầu</h5>
+                  </div>
+
+                  <div class="content2">
+                    <img
+                      src="./2011141125-bao-ve-mat.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Bảo vệ mắt</h5>
+                  </div>
+
+                  <div class="content3">
+                    <img
+                      src="./2111101139-2011141103-bao-ve-thinh-giac-10112021-2.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Bảo vệ thính giác</h5>
+                  </div>
+
+                  <div class="content4">
+                    <img
+                      src="./2011141130-gang-tay-bao-ho.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Găng tay bảo hộ lao động</h5>
+                  </div>
+
+                  <div class="content5">
+                    <img
+                      src="./2011141152-bao-ve-ho-hap.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Bảo vệ hô hấp</h5>
+                  </div>
+
+                  <div class="content6">
+                    <img
+                      src="./2111101135-2011141137-giay-bao-ho-10112021.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Giày bảo hộ</h5>
+                  </div>
+
+                  <div class="content7">
+                    <img
+                      src="./2111101136-2011141155-thiet-bi-an-toan-dien-10112021-2.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Chống điện giật</h5>
+                  </div>
+
+                  <div class="content8">
+                    <img
+                      src="./2111101130-2011141110-thiet-bi-do-khi-10112021.jpg"
+                      alt=""
+                      style="width: 209px"
+                    />
+                    <h5>Thiết bị đo khí</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: #eee; top: 200px; position: relative">
+        <div class="container" style="padding: 40px 0">
+          <div class="section">
+            <div>
+              <h4 style="text-align: start">BẢO HỘ NGÀNH-LĨNH VỰC</h4>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="bg">
+              <img
+                src="./bg_loaihang_ecod.png"
+                alt=""
+                style="height: 508.4px; border-radius: 10px"
+              />
+            </div>
+            <div class="content-big">
+              <div class="content1">
+                <img
+                  src="./2011300200-phong-sach.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Ngành thực phẩm
+                </h5>
+              </div>
+
+              <div class="content2">
+                <img
+                  src="./2011300244-hoa-chat.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Bảo vệ hóa chất
+                </h5>
+              </div>
+
+              <div class="content3">
+                <img
+                  src="./2011300254-nhiet-do-cao.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Nhiệt độ cao
+                </h5>
+              </div>
+
+              <div class="content4">
+                <img
+                  src="./2011300241-an-toan-dien.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Bảo hộ ngành điện
+                </h5>
+              </div>
+
+              <div class="content5">
+                <img
+                  src="./2011300248-khong-gian-hep.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Không gian hạn chế
+                </h5>
+              </div>
+
+              <div class="content6">
+                <img
+                  src="./2011300203-san-xuat-cong-nghiep.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Sản xuất công nghiệp
+                </h5>
+              </div>
+
+              <div class="content7">
+                <img
+                  src="./2011300209-tren-cao.jpg"
+                  alt=""
+                  style="width: 209px"
+                />
+                <h5 style="background-color: black; color: white">
+                  Cứu hộ trên cao
+                </h5>
+              </div>
+
+              <div class="content8">
+                <img src="./2011300213-y-te.jpg" alt="" style="width: 209px" />
+                <h5 style="background-color: black; color: white">
+                  Bảo hộ ngành y tế
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dichvu" style="top: 300px; position: relative">
+        <div class="container">
+          <div class="section">
+            <div>
+              <h4 style="text-align: start">DỊCH VỤ</h4>
+            </div>
+          </div>
+
+          <div class="services">
+            <div>
+              <img
+                src="./2012140415-dich-vu-scba.jpg"
+                alt=""
+                style="height: 170px"
+              />
+              <h5>Dịch vụ SCBA</h5>
+            </div>
+
+            <div>
+              <img
+                src="./2012140434-dich-vu-thue-quan-ao-chong-ho-quang (1).jpg"
+                alt=""
+                style="height: 170px"
+              />
+              <h5>Cho thuê Quần áo hồ quang</h5>
+            </div>
+
+            <div>
+              <img
+                src="./2012140333-dich-vu-cho-thue-may-do-khi.jpg"
+                alt=""
+                style="height: 170px"
+              />
+              <h5>Dịch vụ cho thuê Máy dò khí</h5>
+            </div>
+
+            <div>
+              <img
+                src="./2012140323-dich-vu-hieu-chuan-may-do-khi.jpg"
+                alt=""
+                style="height: 170px"
+              />
+              <h5>Dịch vụ hiệu chuẩn máy đo khí</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Videos">
+        <div class="container">
+          <h4 style="text-align: start">VIDEO</h4>
+
+          <div class="videos">
+            <div
+              style="height: 524px; background-color: #e9e9e9; padding: 10px"
+            >
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/MOX_KbUumEM?si=euIDDatps0OKwpy_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <h5 style="text-align: start; top: 15px; position: relative">
+                ECO3D SAFETY - Chuyên Phân Phối Sản Phẩm Bảo Hộ Lao Động
+              </h5>
+            </div>
+
+            <div class="Video-small">
+              <div class="video">
+                <iframe
+                  width="100%"
+                  height="fit-content"
+                  src="https://www.youtube.com/embed/jDrxuFYH8nE?si=9fnGr-0eDt4Kktcv"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <h5 style="text-align: start">
+                  Găng Tay Đa Dụng Chống Trơn Trượt Grippaz | ECO3D
+                </h5>
+              </div>
+
+              <div class="video">
+                <iframe
+                  width="100%"
+                  height="fit-content"
+                  src="https://www.youtube.com/embed/0KIqlJ6fTH4?si=SsaTWdB6_Jq_Q6wr"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <h5 style="text-align: start">
+                  Giày Bảo Hộ Lao Động Kingpro ECONILA Đến Từ Singpo
+                </h5>
+              </div>
+
+              <div class="video">
+                <iframe
+                  width="100%"
+                  height="fit-content"
+                  src="https://www.youtube.com/embed/hXCqTjKFCgs?si=ChqTsqb7tvE6q_NB"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <h5 style="text-align: start">
+                  KHẨU TRANG HONEYWELL | UY TÍN – CHẤT LƯỢNG |
+                </h5>
+              </div>
+
+              <div class="video">
+                <iframe
+                  width="100%"
+                  height="fit-content"
+                  src="https://www.youtube.com/embed/gX9rAhoxDFs?si=qOUjh_N1hdC61dNp"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <h5 style="text-align: start">
+                  Sào cách điện thao tác SALISBURY
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="DoiTac">
+        <div class="container">
+          <h4 style="text-align: start">ĐỐI TÁC</h4>
+
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            style="background-color: #eee; top: 20px"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./2308051133-th-3.jpg" class="dblock" alt="..." />
+                <img
+                  src="./2308020212-logo-hans.jpg"
+                  class="dblock"
+                  alt="..."
+                />
+                <img src="./lakeland.png" class="dblock" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./2307270357-logo-ansell.jpeg"
+                  class="dblock"
+                  alt="..."
+                />
+                <img src="./2104211000-sfe-logo.jpg" class="dblock" alt="..." />
+                <img src="./2311250908-Wobo.png" class="dblock" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./Castong.png" class="dblock" alt="..." />
+                <img src="./GMG.png" class="dblock" alt="..." />
+                <img src="./Fenan.png" class="dblock" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="TinTuc">
+        <div class="container">
+          <h4 style="text-align: start">TIN TỨC</h4>
+        </div>
+
+        <div>
+          <div class="container">
+            <div style="display: flex">
+              <div style="padding: 15px">
+                <img
+                  src="./2509241427-Nhung-Những Lỗi Thường Gặp Khi Sử Dụng Găng Tay Cách Điện Và Cách Phòng Tránh.png"
+                  alt=""
+                  style="width: 627px"
+                />
+                <h5 style="text-align: start; color: #d51923">
+                  Những lỗi thường gặp khi sử dụng găng tay cách điện và cách
+                  phòng tránh
+                </h5>
+              </div>
+
+              <div class="Tintuc">
+                <div style="display: flex">
+                  <img
+                    src="./2509201344-WEBSITE ECO3D (854 x 480 px).png"
+                    alt=""
+                    style="height: 112.41px"
+                  />
+                  <div>
+                    <h5 style="text-align: start; color: #d51923">
+                      Cách sử dụng găng tay cách điện an toàn, tránh sự cố rò
+                      điện
+                    </h5>
+                  </div>
+                </div>
+
+                <div style="display: flex">
+                  <img
+                    src="./2509171459-2.png"
+                    alt=""
+                    style="height: 112.41px"
+                  />
+                  <div>
+                    <h5 style="text-align: start; color: #d51923">
+                      Các cấp điện áp của găng tay cách điện và cách lựa chọn
+                      đúng để đảm bảo an toàn
+                    </h5>
+                  </div>
+                </div>
+
+                <div style="display: flex">
+                  <img
+                    src="./2509161141-1.png"
+                    alt=""
+                    style="height: 112.41px"
+                  />
+                  <div>
+                    <h5 style="text-align: start; color: #d51923">
+                      Găng tay cách điện là gì? Ứng dụng trong công việc nào?
+                    </h5>
+                  </div>
+                </div>
+
+                <div style="display: flex">
+                  <img
+                    src="./2508190741-20.png"
+                    alt=""
+                    style="height: 132.66px"
+                  />
+                  <div>
+                    <h5 style="text-align: start; color: #d51923">
+                      5 Tính Năng Không Thể Thiếu Của Một Đôi Giày Bảo Hộ Chất
+                      Lượng
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="contact" style="background-color: #eee; text-align: center">
+        <div class="container" style="padding: 10px">
+          <h4 style="text-align: center">LIÊN HỆ VỚI CHÚNG TÔI</h4>
+          <p>
+            Được thành lập từ năm 2005, cung trang thiết bị bảo hộ lao động chất
+            lượng cao, các máy móc trong ngành công nghiệp.
+          </p>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              padding-bottom: 15px;
+              gap: 20px;
+            "
+          >
+            <input
+              type="text"
+              placeholder="Họ Tên"
+              style="width: 308px; height: 43px"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              style="width: 308px; height: 43px"
+            />
+            <input
+              type="number"
+              placeholder="Số điện thoại"
+              style="width: 308px; height: 43px"
+            />
+          </div>
+          <button
+            style="
+              width: 308px;
+              height: 43px;
+              background-color: red;
+              color: white;
+            "
+          >
+            GỬI YÊU CẦU
+          </button>
+        </div>
+      </div>
+
+      <div style="background-color: red; color: white; padding: 40px 0">
+        <div class="container" style="padding-top: 10px">
+          <h4>Ứng dụng có sẵn cho tất cả các thiết bị</h4>
+          <p style="text-align: center">
+            E-Safety là ứng dụng công nghệ cho phép người dùng đăng ký dễ dàng
+            để trở thành cộng tác viên chuyên về các sản phẩm công nghiệp và các
+            thiết bị bảo hộ lao động. Ứng dụng kết nối trực tiếp với cổng
+            website chính từ nhà cung cấp hàng hóa. Nó cho phép người dùng truy
+            cấp đầy đủ các tính năng như danh mục, thông tin hàng hóa, quản lý
+            số lượng xuất-nhập sản phẩm trong ngày, tháng, năm. Đồng thời kiểm
+            soát chính xác về doanh số thu vào và ra.
+          </p>
+          <div style="display: flex; justify-content: center">
+            <div class="TaiXuong">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.eco3d.eco3dcollab"
+                class="googleplay-a"
+                ><img src="./google-play.png" alt="" class="googleplay"
+              /></a>
+            </div>
+
+            <div>
+              <a
+                href="https://apps.apple.com/vn/app/e-safety/id1539317526?l=vi"
+              >
+                <img src="./apple.png" alt="" class="appstore" />
+              </a>
+            </div>
+          </div>
+          <p style="text-align: center">
+            Khả dụng trên iPhone, iPad và tất cả các thiết bị Android
+          </p>
+        </div>
+      </div>
+
+      <div style="background-color: black; color: white; padding: 40px 0">
+        <div class="container" style="text-align: start">
+          <h4>TỪ KHÓA TÌM KIẾM</h4>
+          <div style="display: flex">
+            <h5>Bảo về đầu :</h5>
+            <p>
+              Mũ A59R | Mũ bảo hộ North USA | Mũ hàn quốc | Mũ North | Phụ kiện
+              mũ
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Bảo vệ mắt :</h5>
+            <p>
+              A700 Honeywell | Chống đọng hơi sương | Kính chống bụi | Kính
+              chống hóa chất | Kính honeywell | KY1151 | KY211 | Phụ kiện kính
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Bảo vệ thính giác :</h5>
+            <p>Chụp chống ồn | Max-1 | Max-30 | Nút tai dùng nhiều lần</p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Găng tay bảo hộ lao động :</h5>
+            <p>
+              Chịu nhiệt | Găng chống cắt | Găng chống hóa chất | LA132 | Phòng
+              sạch
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Bảo vệ hô hấp :</h5>
+            <p>
+              Khẩu trang chống bụi | Khẩu trang có van thở | Khẩu trang H950 |
+              Khẩu trang hoạt tính | Mặt nạ 54001 | Mặt nạ phòng độc | Pin lọc |
+              Pin lọc 75SCL | SCBA
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Giày bảo hộ :</h5>
+            <p>
+              giày cao cấp | giày đặc chủng | giầy thấp cổ | Honeywell 9541 |
+              Honeywell 9542 | K2 | KR7000 | KWD805C | KWS800
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Chống điện giật :</h5>
+            <p>
+              Găng tay cách điện | Găng tay hồ quang | Quần áo hồ quang | Sào
+              cách điện | SK31 | SK40 | SK8
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Thiết bị đo khí :</h5>
+            <p>
+              Đo khí LEL | Đo khí VOC | Đo nồng độ CO | Honeywell BW Solo | Máy
+              đo khí đa chỉ tiêu | RAE Systems
+            </p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Chống rơi :</h5>
+            <p>Đai an toàn | Khóa chống trượt | Thừng giảm sốc</p>
+          </div>
+
+          <div style="display: flex">
+            <h5>Quần áo bảo hộ :</h5>
+            <p>
+              Chống cắt | Chống hồ quang điện | Chống hóa chất | Quần áo Chịu
+              nhiệt
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-footer" style="background-color: black; color: white">
+        <div
+          class="container"
+          style="display: flex; justify-content: space-around"
+        >
+          <div class="end">
+            <img src="./logo.png" alt="" style="width: 273px" />
+            <p style="text-align: start; width: 273px">
+              Công ty TNHH ECO3D được thành lập vào năm 2016, là đơn vị nhập
+              khẩu phân phối chính thức các loại thiết bị bảo hộ lao động
+              Honeywell tại thị trường Việt Nam.
+            </p>
+          </div>
+
+          <div>
+            <h5 class="end">HỖ TRỢ</h5>
+            <p class="end">Hướng dẫn xem báo giá</p>
+            <p class="end">Hướng dẫn mua hàng</p>
+            <p class="end">Phương thức giao hàng</p>
+            <p class="end">Phương thức thanh toán</p>
+          </div>
+
+          <div>
+            <h5 class="end">Chính sách</h5>
+            <p class="end">Chính sách đổi trả hàng</p>
+            <p class="end">Chính sách bảo hành</p>
+            <p class="end">Chính sách đại lý</p>
+            <p class="end">Chính sách & quy định chung</p>
+            <p class="end">Chính sách bảo mật thông tin</p>
+          </div>
+
+          <div style="width: 338px">
+            <h5 class="end">Liên hệ</h5>
+            <p class="end">Hà Nội: 335 Trương Định, P.Tương Mai, Q.Hoàng Mai</p>
+            <p class="end">
+              Số 1150 Nguyễn khoái, P Lĩnh Nam, Q Hoàng Mai, Hà Nội
+            </p>
+            <p class="end">
+              TP.HCM: Số 656/55 Quang Trung, P 11, Q. Gò Vấp, Tp HCM
+            </p>
+            <p class="end">admin@eco3d.vn</p>
+            <p class="end">090.60189.86</p>
+            <p class="end">(024) 3260.6868</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -46,17 +46,19 @@ document.getElementById(
 const login = true;
 let Tong_tien = 0;
 
-document.getElementsByClassName("Buy").addEventListener("click", function () {
-  if ((login = false)) {
-    window.location.href = "signIn.html";
-  } else {
-    for (let i = 0; i < San_pham.length; i++) {
-      document.getElementById(i).addEventListener("click", function () {
-        let gia_tien = Number(San_pham[i].price);
-        Tong_tien = Tong_tien + gia_tien;
-      });
+document.querySelectorAll("Buy").forEach((btn) => {
+  btn.addEventListener("click", function () {
+    if (!login) {
+      window.location.href = "signIn.html";
+      return;
     }
-  }
-});
 
-console.log(Tong_tien);
+    const idBtn = this.id;
+
+    const sanPham = San_pham.find((sp) => sp.id === idBtn);
+    if (!sanPham) return;
+
+    Tong_tien += Number(sanPham.price);
+    console.log("Tổng tiền:", Tong_tien);
+  });
+});
